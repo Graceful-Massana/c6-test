@@ -15,8 +15,8 @@ use serde::Deserialize;
 use embedded_svc::wifi::{AuthMethod, ClientConfiguration, Configuration as WifiConfiguration};
 use embedded_svc::{http::{Headers, Method}, io::{Read, Write}};
 
-const SSID: &str = "Enhora";
-const PASSWORD: &str = "Intuate@333";
+const SSID: &str = "";
+const PASSWORD: &str = "";
 const MAX_LEN: usize = 128;
 const STACK_SIZE: usize = 10240;
 
